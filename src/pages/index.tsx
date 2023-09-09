@@ -2,9 +2,13 @@ export default function Index() {
   const name = useRef<HTMLInputElement>(null)
 
   const navigate = useNavigate()
+
   const go = () => {
-    if (name.current)
-      navigate(`/hi/${encodeURIComponent(name.current.value)}`)
+    const val = name.current?.value
+    if (!val)
+      return name.current?.focus()
+
+    navigate(`/hi/${encodeURIComponent(val)}`)
   }
 
   return (
