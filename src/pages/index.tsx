@@ -20,10 +20,11 @@ export default function Index() {
     <div>
       <div className="i-carbon-campsite text-4xl inline-block" />
       <p>
-        <a rel="noreferrer" href="https://github.com/antfu/vitesse-lite" target="_blank">
-        Vitesse Lite {count}
+        <a rel="noreferrer" href="https://github.com/guygubaby/vitesse-lite-react" target="_blank">
+        Vitesse Lite react {count}
         </a>
       </p>
+
       <p>
         <em className="text-sm op75">Opinionated Vite Starter Template</em>
       </p>

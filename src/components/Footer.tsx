@@ -12,7 +12,7 @@ export default function Footer() {
       <a
         className="icon-btn i-carbon-logo-github"
         rel="noreferrer"
-        href="https://github.com/antfu/vitesse-lite"
+        href="https://github.com/guygubaby/vitesse-lite-react"
         target="_blank"
         title="GitHub"
       />
