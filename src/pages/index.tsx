@@ -1,3 +1,5 @@
+import { userStore } from '~/store/test'
+
 export default function Index() {
   const name = useRef<HTMLInputElement>(null)
 
@@ -11,12 +13,15 @@ export default function Index() {
     navigate(`/hi/${encodeURIComponent(val)}`)
   }
 
+  const count = userStore(state => state.count)
+  const inc = userStore(state => state.inc)
+
   return (
     <div>
       <div className="i-carbon-campsite text-4xl inline-block" />
       <p>
         <a rel="noreferrer" href="https://github.com/antfu/vitesse-lite" target="_blank">
-        Vitesse Lite
+        Vitesse Lite {count}
         </a>
       </p>
       <p>
@@ -41,6 +46,13 @@ export default function Index() {
           onClick={() => go() }
         >
         Go
+        </button>
+
+        <button
+          className="m-3 text-sm btn"
+          onClick={() => inc() }
+        >
+        Inc
         </button>
       </div>
     </div>
