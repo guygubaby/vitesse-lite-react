@@ -1,6 +1,7 @@
 {
+  "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.7.4",
+  "packageManager": "pnpm@9.4.0",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
@@ -10,28 +11,28 @@
     "test": "vitest"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0",
-    "usehooks-ts": "^2.9.1",
-    "zustand": "^4.4.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
+    "usehooks-ts": "^3.1.0",
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.41.0",
-    "@iconify-json/carbon": "^1.1.21",
-    "@testing-library/react": "^14.0.0",
-    "@types/node": "^20.6.0",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
-    "@unocss/reset": "^0.55.7",
-    "@vitejs/plugin-react": "^4.0.4",
-    "eslint": "^8.49.0",
-    "jsdom": "^22.1.0",
-    "typescript": "^5.2.2",
-    "unocss": "^0.55.7",
-    "unplugin-auto-import": "^0.16.6",
-    "vite": "^4.4.9",
-    "vite-plugin-pages": "^0.31.0",
-    "vitest": "^0.34.4"
+    "@antfu/eslint-config": "^2.22.0-beta.1",
+    "@iconify-json/carbon": "^1.1.36",
+    "@testing-library/react": "^16.0.0",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@unocss/reset": "^0.61.2",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.6.0",
+    "jsdom": "^24.1.0",
+    "typescript": "^5.5.3",
+    "unocss": "^0.61.2",
+    "unplugin-auto-import": "^0.17.6",
+    "vite": "^5.3.3",
+    "vite-plugin-pages": "^0.32.3",
+    "vitest": "^1.6.0"
   }
 }

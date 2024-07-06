@@ -36,11 +36,7 @@
 - ☁️ Deploy on Netlify, zero-config
 
 
-<br>
-
 See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
-
-
 ## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
 
 - ~~i18n~~
@@ -66,7 +62,7 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use react/react-router-dom API and others without importing
 - [usehooks-ts](https://usehooks-ts.com/) - collection of useful React hooks
 
-## Try it now!
+## Try it now
 
 ### GitHub Template
 
