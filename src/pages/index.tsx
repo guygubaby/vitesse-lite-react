@@ -21,7 +21,9 @@ export default function Index() {
       <div className="i-carbon-campsite text-4xl inline-block" />
       <p>
         <a rel="noreferrer" href="https://github.com/guygubaby/vitesse-lite-react" target="_blank">
-        Vitesse Lite react {count}
+          Vitesse Lite react
+          {' '}
+          {count}
         </a>
       </p>
 
@@ -44,16 +46,16 @@ export default function Index() {
         <button
           className="m-3 text-sm btn"
           disabled={!name}
-          onClick={() => go() }
+          onClick={() => go()}
         >
-        Go
+          Go
         </button>
 
         <button
           className="m-3 text-sm btn"
-          onClick={() => inc() }
+          onClick={() => inc()}
         >
-        Inc
+          Inc
         </button>
       </div>
     </div>
